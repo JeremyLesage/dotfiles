@@ -1,4 +1,5 @@
 {
+  "save_on_focus_lost": true,
   "detect_indentation": false,
   "draw_white_space": true,
   "ensure_newline_at_eof_on_save": true,
@@ -22,6 +23,7 @@
     ".pytest_cache",
     "__pycache__"
   ],
+  "save_on_focus_lost": true,
   "highlight_modified_tabs": true,
   "hot_exit": false,
   "ignored_packages":
@@ -29,15 +31,46 @@
     "Vintage",
     "Python"
   ],
+  "save_on_focus_lost": true,
   "remember_open_files": false,
   "rulers":
   [
     80
   ],
+  "save_on_focus_lost": true,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
   "trim_automatic_white_space": true,
   "trim_trailing_white_space_on_save": true,
   "use_tab_stops": true,
-  "word_wrap": false
+  "word_wrap": false,
+
+  "auto_complete": true,
+  "auto_complete_triggers":
+  [
+    {
+      "characters": ".",
+      "selector": "source.js"
+    }
+  ],
+  "ensure_newline_at_eof_on_save": true,
+  "folder_exclude_patterns":
+  [
+    "node_modules",
+    ".git"
+  ],
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "tab_size": 2,
+  "theme": "Adaptive.sublime-theme",
+  "translate_tabs_to_spaces": true,
+  "trim_automatic_white_space": true,
+  "trim_trailing_white_space_on_save": true,
+  "update_check": false,
+  "use_tab_stops": true,
+  "word_wrap": true
 }
+
