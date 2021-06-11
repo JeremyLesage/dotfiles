@@ -20,5 +20,8 @@
 		"SublimeLinter",
 		"SublimeLinter-flake8",
 		"SublimeLinter-rubocop"
-	]
+	],
+	"in_process_packages":
+	[
+	],
 }
